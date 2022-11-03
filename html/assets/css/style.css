@@ -36,12 +36,18 @@ h2 {
   font-weight: 400;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+}
+
 .header {
   background-color: #333533;
   height: 376px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 45px 0;
 }
 
 .header .title {
@@ -93,7 +99,6 @@ h2 {
   font-size: 14px;
   opacity: 0.7;
   align-self: flex-start;
-  margin-top: 80px;
   transition: all 100ms ease-in-out;
 }
 
@@ -111,4 +116,18 @@ h2 {
   width: 290px;
   height: 290px;
   border-radius: 50%;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  padding: 45px 0;
+}
+
+nav {
+  width: 250px;
+}
+
+.sections {
+  width: 700px;
 }
