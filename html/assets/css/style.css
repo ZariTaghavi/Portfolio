@@ -112,6 +112,7 @@ ul {
 .lang:hover i {
   opacity: 1;
 }
+
 .header img {
   width: 290px;
   height: 290px;
@@ -126,6 +127,44 @@ ul {
 
 nav {
   width: 250px;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+nav ul li {
+  cursor: pointer;
+}
+
+nav li.active {
+  font-weight: 500;
+}
+
+nav ul li .marker {
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  border: 1px solid #333533;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: 12px;
+  transition: all 100ms ease-in-out;
+}
+
+nav ul li.active .marker,
+nav ul li:hover .marker {
+  background-color: #333533;
+  color: #ffd100;
+  font-size: 22px;
+}
+
+nav ul li:not(:last-child)::after {
+  content: "";
+  display: block;
+  height: 56px;
+  border-left: 1px dashed #333533;
+  margin: 16px 0 16px 21px;
 }
 
 .sections {
