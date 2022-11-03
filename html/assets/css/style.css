@@ -36,6 +36,25 @@ h2 {
   font-weight: 400;
 }
 
+h4 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1;
+  margin: 12px 0;
+}
+
+h5 {
+  color: #a0a0a0;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1;
+  margin: 0 0 8px;
+}
+
+p {
+  margin: 0;
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -119,7 +138,7 @@ ul {
   border-radius: 50%;
 }
 
-.content-container {
+.content {
   display: flex;
   justify-content: center;
   padding: 45px 0;
@@ -169,4 +188,31 @@ nav ul li:not(:last-child)::after {
 
 .sections {
   width: 700px;
+  border-left: 1px solid #333533;
+  padding-left: 50px;
+}
+
+.contact {
+  display: flex;
+  margin: 45px 0 45px;
+}
+
+.contact div {
+  width: 50%;
+}
+
+.contact p i {
+  margin-left: 10px;
+  font-size: 16px;
+  color: #a0a0a0;
+  cursor: pointer;
+}
+
+.contact p i:hover {
+  color: #333533;
+}
+
+.socials li {
+  display: inline-block;
+  margin-right: 24px;
 }
