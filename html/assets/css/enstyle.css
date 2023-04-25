@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("/assets/fonts/Poppins-Light.woff") format("woff"),
+      url("/assets/fonts/Poppins-Light.ttf") format("ttf");
+    font-weight: 300;
+  }
+  @font-face {
+    font-family: "Poppins";
+    src: url("/assets/fonts/Poppins-Medium.woff") format("woff"),
+      url("/assets/fonts/Poppins-Medium.ttf") format("ttf");
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: "Poppins";
+    src: url("/assets/fonts/Poppins-Regular.woff") format("woff"),
+      url("/assets/fonts/Poppins-Regular.ttf") format("ttf");
+    font-weight: 500;
+  }
+  
+  * {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .header {
+    justify-content: center;
+  }
+  
+  .header .title {
+    margin: 0 70px 0 50px;
+  }
+  
+  nav ul li .marker {
+    margin-right: 12px;
+  }
+  
+  nav ul li:not(:last-child)::after {
+    border-left: 1px dashed #333533;
+    margin: 16px 0 16px 21px;
+  }
+  
+  .sections {
+    border-left: 1px solid #333533;
+    padding-left: 40px;
+  }
+  
+  .contact p i {
+    margin-left: 10px;
+  }
+  
+  .socials li {
+    margin-right: 24px;
+  }
+  
+  .skills .title img {
+    margin-right: 6px;
+  }
+  
+  .skills .level {
+    width: 26%;
+  }
+  
+  .skills .level i {
+    border-left: 1px solid #d6d6d6;
+  }
+  
+  .other-skills li {
+    margin: 0 16px 18px 0;
+  }
+  
+  .project:not(:last-child) {
+    margin-right: 16px;
+  }
+  
+  .project-links a i {
+    margin-right: 5px;
+  }
+    
