@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "Vazirmatn";
+  src: url("/assets/fonts/Vazirmatn-Light.woff") format("woff"),
+    url("/assets/fonts/Poppins-Light.ttf") format("ttf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Vazirmatn";
+  src: url("/assets/fonts/Vazirmatn-Medium.woff") format("woff"),
+    url("/assets/fonts/Vazirmatn-Medium.ttf") format("ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Vazirmatn";
+  src: url("/assets/fonts/Vazirmatn-Regular.woff") format("woff"),
+    url("/assets/fonts/Vazirmatn-Regular.ttf") format("ttf");
+  font-weight: 500;
+}
+
+* {
+  font-family: "Vazirmatn", sans-serif;
+}
+
+.header {
+  justify-content: flex-start;
+}
+
+.header .title {
+  margin: 0 50px 0 70px;
+}
+
+.header .position i {
+  font-size: 24px;
+}
+
+.button {
+  font-size: 16px;
+}
+
+.button i {
+  vertical-align: middle;
+}
+
+.header img,
+.lang {
+  margin-right: 200px;
+}
+
+nav ul li .marker {
+  margin-left: 12px;
+}
+
+nav ul li .marker i {
+  vertical-align: middle;
+  text-align: center;
+}
+
+nav ul li:not(:last-child)::after {
+  border-right: 1px dashed #333533;
+  margin: 16px 21px 16px 0;
+}
+
+.sections {
+  border-right: 1px solid #333533;
+  padding-right: 40px;
+}
+
+.contact p i {
+  margin-right: 10px;
+}
+
+.socials li {
+  margin-left: 24px;
+}
+
+.skills .title img {
+  margin-left: 6px;
+}
+
+.skills .level {
+  width: 18%;
+}
+
+.other-skills li {
+  margin: 0 0 18px 16px;
+}
+
+.project:not(:last-child) {
+  margin-left: 16px;
+}
+
+.project-links {
+  flex-direction: row-reverse;
+}
+
+.project-links a i {
+  font-size: 10px;
+  margin-left: 5px;
+}
